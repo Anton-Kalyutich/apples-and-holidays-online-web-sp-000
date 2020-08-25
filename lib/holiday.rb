@@ -54,7 +54,6 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
-  string = ""
   holiday_hash.each do |season, hash|
     string += "#{season.to_s.capitalize}:\n"
     hash.each do |holiday, supplies|
