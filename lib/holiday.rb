@@ -61,6 +61,8 @@ def all_supplies_in_holidays(holiday_hash)
       string += "#{holiday.to_s.capitalize}: "
       supplies.each do |supply|
         string << supply
+      end
+    end
       
       
 end
